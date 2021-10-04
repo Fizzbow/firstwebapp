@@ -6,6 +6,7 @@
       <home-location></home-location>
       <home-activity></home-activity>
       <home-hot></home-hot>
+      <home-like></home-like>
   </div>
 </template>
 <script>
@@ -15,7 +16,7 @@ import HomeIcons from './pages/Icons'
 import HomeLocation from './pages/Location'
 import HomeActivity from './pages/Activity'
 import HomeHot from './pages/Hot'
-
+import HomeLike from './pages/Like'
 
 export default {
   components:{
@@ -24,7 +25,8 @@ export default {
     HomeIcons,
     HomeLocation,
     HomeActivity,
-    HomeHot
+    HomeHot,
+    HomeLike
   }
 }
 </script>
