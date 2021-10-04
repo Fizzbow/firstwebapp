@@ -20,7 +20,7 @@ export default {
         {
           id:'01',
           imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/hotel.png',
-          title:'xsdd'
+          title:'xsddzzzzzzzzzzz'
         },
         {
           id:'02',
@@ -84,7 +84,8 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style scoped lang="stylus">
+@import "~css/var.styl"
 .icons{
   width: 100%;
   overflow: hidden;
@@ -104,6 +105,7 @@ export default {
   padding-top: .1rem;
 }
 .icons-item p{
+  textOverflow();
   margin-top: .1rem;
   font-size:.28rem;
   text-align: center;
