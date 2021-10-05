@@ -13,61 +13,10 @@
 </template>
 <script>
 export default {
+  props:['iconList'],
   data(){
     return{
       swiperOptions:{},
-      iconList:[
-        {
-          id:'01',
-          imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/hotel.png',
-          title:'xsddzzzzzzzzzzz'
-        },
-        {
-          id:'02',
-          imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/hotel.png',
-          title: 'sjhdjn'
-        },
-        {
-          id:'03',
-          imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/hotel.png',
-          title: 'hbjhj'
-        },
-        {
-          id:'04',
-          imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/hotel.png',
-          title: 'khksjdka'
-        },
-        {
-          id:'05',
-          imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/hotel.png',
-          title: 'ks21lk'
-        },
-        {
-          id:'06',
-          imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/hotel.png',
-          title: 'jsbdns'
-        },
-        {
-          id:'07',
-          imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/hotel.png',
-          title: 'ksdlk'
-        },
-        {
-          id:'08',
-          imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/hotel.png',
-          title: 'ksdlk'
-        },
-        {
-          id:'09',
-          imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/hotel.png',
-          title: 'ksdlk'
-        },
-        {
-          id:'10',
-          imgUrl:'https://s.qunarzz.com/homenode/images/touchheader/hotel.png',
-          title: 'shdjk'
-        }
-      ]
     }
   },
   computed:{

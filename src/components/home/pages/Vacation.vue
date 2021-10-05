@@ -18,28 +18,9 @@
 </template>
 <script>
 export default {
+  props:['vacationList'],
   data(){
     return{
-      vacationList:[
-        {
-          id:'01',
-          imgUrl:'https://imgs.qunarzz.com/p/tts1/1806/90/bc6289412c512402.jpg',
-          title:'漂流涌进，烧烤露营',
-          msg:'轻松水上漂，任我乐逍遥'
-        },
-        {
-          id:'02',
-          imgUrl:'https://imgs.qunarzz.com/vs_ceph_vs_tts/bd9bd49b-cfc3-4222-98fe-4719716266a8.jpg',
-          title:'漂流涌进，烧烤露营',
-          msg:'轻松水上漂，任我乐逍遥'
-        },
-        {
-          id:'03',
-          imgUrl:'https://imgs.qunarzz.com/p/tts1/1806/90/bc6289412c512402.jpg',
-          title:'漂流涌进，烧烤露营',
-          msg:'轻松水上漂，任我乐逍遥'
-        }
-      ]
     }
   }
 }

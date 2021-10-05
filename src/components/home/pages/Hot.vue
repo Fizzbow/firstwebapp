@@ -18,40 +18,9 @@
 </template>
 <script>
 export default {
+  props:['hotList'],
   data(){
     return{
-      hotList:[
-        {
-          id:'01',
-          imgUrl:'https://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_256x160_f977b5d4.jpg',
-          title:'故宫',
-          mark:'$20'
-        },
-        {
-          id:'02',
-          imgUrl:'https://img1.qunarzz.com/sight/p0/201405/12/51b63883c25f5d87af3c08bb016e2bd7.jpg_256x160_2c506073.jpg',
-          title:'恭王府zzzzzzzzzzzzzzzzzzzzzzz',
-          mark:'$10'
-        },
-        {
-          id:'03',
-          imgUrl:'https://img1.qunarzz.com/sight/p0/2005/39/3979f1867defec4ea3.water.jpg_256x160_6ae804bb.jpg',
-          title:'长城',
-          mark:'$50'
-        },
-        {
-          id:'04',
-          imgUrl:'https://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_256x160_618d3a8e.jpg',
-          title:'圆明园',
-          mark:'$50'
-        },
-        {
-          id:'05',
-          imgUrl:'https://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_256x160_f977b5d4.jpg',
-          title:'故宫',
-          mark:'$20'
-        }
-      ]
     }
   }
 }

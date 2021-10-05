@@ -29,26 +29,10 @@
 </template>
 <script>
 export default {
+  props:['likeList'],
   data(){
     return {
-      likeList:[
-        {
-          id:'01',
-          imgUrl:'https://img1.qunarzz.com/sight/p0/1602/e6/e655d7ee86c7fd1390.water.jpg_256x160_cd5ed61c.jpg',
-          title:'科技馆',
-          msg:'1314条评论',
-          pre:'18.8',
-          map:'平谷区'
-        },
-        {
-          id:'02',
-          imgUrl:'https://img1.qunarzz.com/sight/p0/1602/e6/e655d7ee86c7fd1390.water.jpg_256x160_cd5ed61c.jpg',
-          title:'科技馆',
-          msg:'1352条评论',
-          pre:'19.8',
-          map:'平谷区'
-        }
-      ]
+
     }
   }
 }

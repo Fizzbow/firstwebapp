@@ -9,6 +9,11 @@ Vue.config.productionTip = false
 import FastClick from 'fastclick'
 FastClick.attach(document.body);
 
+//axios
+import axios from 'axios'
+Vue.prototype.$http = axios
+
+
 // css
 import 'css/reset.css'
 import 'css/iconfont.css'

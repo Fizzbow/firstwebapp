@@ -1,0 +1,145 @@
+{
+  "data": [
+    {
+      "city":"北京",
+      "swiperList": [
+        {
+          "id":"01",
+          "imgUrl":"/api/img/1.jpg"
+        },
+        {
+          "id":"02",
+          "imgUrl":"/api/img/2.jpg"
+        },
+        {
+          "id":"03",
+          "imgUrl":"/api/img/3.jpg"
+        }
+      ],
+      "iconList": [
+        {
+          "id":"01",
+          "imgUrl":"https://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+          "title":"xsddzzzzzzzzzzz"
+        },
+        {
+          "id":"02",
+          "imgUrl":"https://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+          "title": "sjhdjn"
+        },
+        {
+          "id":"03",
+          "imgUrl":"https://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+          "title": "hbjhj"
+        },
+        {
+          "id":"04",
+          "imgUrl":"https://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+          "title": "khksjdka"
+        },
+        {
+          "id":"05",
+          "imgUrl":"https://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+          "title": "ks21lk"
+        },
+        {
+          "id":"06",
+          "imgUrl":"https://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+          "title": "xfbxfbxf"
+        },
+        {
+          "id":"07",
+          "imgUrl":"https://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+          "title": "ksdlk"
+        },
+        {
+          "id":"08",
+          "imgUrl":"https://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+          "title": "ksdlk"
+        },
+        {
+          "id": "09",
+          "imgUrl": "https://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+          "title": "ksdlk"
+        },
+        {
+          "id": "10",
+          "imgUrl":"https://s.qunarzz.com/homenode/images/touchheader/hotel.png",
+          "title": "shdjk"
+        }
+      ],
+      "likeList": [
+        {
+          "id":"01",
+          "imgUrl":"https://img1.qunarzz.com/sight/p0/1602/e6/e655d7ee86c7fd1390.water.jpg_256x160_cd5ed61c.jpg",
+          "title":"科技馆",
+          "msg":"1314条评论",
+          "pre":"18.8",
+          "map":"平谷区"
+        },
+        {
+          "id":"02",
+          "imgUrl":"https://img1.qunarzz.com/sight/p0/1602/e6/e655d7ee86c7fd1390.water.jpg_256x160_cd5ed61c.jpg",
+          "title":"科技馆",
+          "msg":"1352条评论",
+          "pre":"19.8",
+          "map":"平谷区"
+        }
+      ],
+      "vacationList": [
+        {
+          "id":"01",
+          "imgUrl":"https://imgs.qunarzz.com/p/tts1/1806/90/bc6289412c512402.jpg",
+          "title":"漂流涌进，烧烤露营",
+          "msg":"轻松水上漂，任我乐逍遥"
+        },
+        {
+          "id":"02",
+          "imgUrl":"https://imgs.qunarzz.com/p/tts1/1806/90/bc6289412c512402.jpg",
+          "title":"漂流涌进，烧烤露营",
+          "msg":"轻松水上漂，任我乐逍遥"
+        },
+        {
+          "id":"03",
+          "imgUrl":"https://imgs.qunarzz.com/p/tts1/1806/90/bc6289412c512402.jpg",
+          "title":"漂流涌进，烧烤露营",
+          "msg":"轻松水上漂，任我乐逍遥"
+        }
+      ],
+      "hotList":[
+        {
+          "id": "01",
+          "imgUrl": "https://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_256x160_f977b5d4.jpg",
+          "title": "故宫",
+          "mark": "$20"
+        },
+        {
+          "id": "02",
+          "imgUrl": "https://img1.qunarzz.com/sight/p0/201405/12/51b63883c25f5d87af3c08bb016e2bd7.jpg_256x160_2c506073.jpg",
+          "title": "恭王府zzzzzzzzzzzzzzzzzzzzzzz",
+          "mark": "$10"
+        },
+        {
+          "id": "03",
+          "imgUrl": "https://img1.qunarzz.com/sight/p0/2005/39/3979f1867defec4ea3.water.jpg_256x160_6ae804bb.jpg",
+          "title": "长城",
+          "mark": "$50"
+        },
+        {
+          "id": "04",
+
+          "imgUrl": "https://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_256x160_618d3a8e.jpg",
+          "title": "圆明园",
+          "mark": "$50"
+        },
+        {
+          "id": "05",
+          "imgUrl": "https://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_256x160_f977b5d4.jpg",
+          "title": "故宫",
+          "mark": "$20"
+        }
+      ]
+    }
+  ]
+
+}
