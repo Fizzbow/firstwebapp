@@ -2,21 +2,19 @@
   <div class="sort">
     <div class="sort-title">字母排序</div>
     <ul class="sort-list">
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
+      <li class="sort-item"
+      v-for="(val,key) in cities"
+      >
+        {{key}}
+      </li>
     </ul>
   </div>
 </template>
-<script></script>
+<script>
+export default {
+  props:['cities']
+}
+</script>
 <style scoped>
 .sort-title{
   font-size: .24rem;

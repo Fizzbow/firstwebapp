@@ -1,9 +1,9 @@
 <template>
   <div class="city">
     <city-header></city-header>
-    <city-hot></city-hot>
-    <city-sort></city-sort>
-    <city-list></city-list>
+    <city-hot :hotCities="hotCities"></city-hot>
+    <city-sort :cities = 'cities'></city-sort>
+    <city-list :cities = 'cities'>></city-list>
   </div>
 </template>
 <script>
@@ -18,6 +18,20 @@ export default {
     CityHot,
     CitySort,
     CityList
+  },
+  data(){
+    return{
+      hotCities:[],
+      cities:{}
+    }
+  },
+  mounted() {
+    this.$http.get('./api/city.json').then((res)=>{
+      console.log(res.data.data)
+      let data = res.data.data;
+      this.hotCities = data.hotCities;
+      this.cities = data.cities;
+    })
   }
 }
 </script>
