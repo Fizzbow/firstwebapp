@@ -40,7 +40,8 @@ export default {
       iconList:[],
       likeList:[],
       vacationList:[],
-      hotList:[]
+      hotList:[],
+      changeCity:''
     }
   },
   computed:{
@@ -65,7 +66,14 @@ export default {
   }
   },
   mounted() {
+    this.changeCity = this.city;
     this.getHttp()
+  },
+  activated() {
+    if (this.changeCity != this.city){
+      this.getHttp()
+      this.changeCity = this.city;
+    }
   }
 }
 </script>
