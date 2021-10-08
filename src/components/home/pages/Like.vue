@@ -6,7 +6,9 @@
     </div>
 
     <ul>
-      <li class="like-item border-bottom" v-for="item in likeList" :key="item.id">
+      <li class="like-item border-bottom" v-for="item in likeList" :key="item.id"
+      @click="toDetail"
+      >
         <div class="like-img">
 <!--          <img :src="item.imgUrl">-->
           <img :src="item.imgUrl">
@@ -33,6 +35,11 @@ export default {
   data(){
     return {
 
+    }
+  },
+  methods:{
+    toDetail(){
+      this.$router.push("/details")
     }
   }
 }
