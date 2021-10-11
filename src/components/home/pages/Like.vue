@@ -31,15 +31,15 @@
 </template>
 <script>
 export default {
-  props:['likeList'],
-  data(){
+  props: ['likeList'],
+  data () {
     return {
 
     }
   },
-  methods:{
-    toDetail(){
-      this.$router.push("/details")
+  methods: {
+    toDetail () {
+      this.$router.push('/details')
     }
   }
 }

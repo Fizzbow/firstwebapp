@@ -9,7 +9,7 @@ import DetailBanner from './pages/Banner'
 import DetailHeader from './pages/Header'
 
 export default {
-  components:{
+  components: {
     DetailBanner,
     DetailHeader
   }

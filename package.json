@@ -5,7 +5,7 @@
   "author": "Fizzbow <541375716@qq.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --inline --host 0.0.0.0 --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
@@ -15,13 +15,13 @@
   },
   "dependencies": {
     "axios": "^0.22.0",
-    "better-scroll": "^2.4.2",
+    "better-scroll": "^1.12.4",
     "fastclick": "^1.0.6",
     "stylus": "^0.52.4",
     "stylus-loader": "^3.0.2",
     "swiper": "^6.4.5",
     "vue": "^2.5.2",
-    "vue-awesome-swiper": "^4.1.1",
+    "vue-awesome-swiper": "^3.1.3",
     "vue-router": "^3.0.1",
     "vuex": "^3.6.2"
   },

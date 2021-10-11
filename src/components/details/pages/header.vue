@@ -19,29 +19,29 @@
 </template>
 <script>
 export default {
-  data(){
-    return{
-      showHeader:true,
-      styleOpacity:{
-        opacity:0
+  data () {
+    return {
+      showHeader: true,
+      styleOpacity: {
+        opacity: 0
       }
     }
   },
-  methods:{
-    toHome(){
-      this.$router.push("/")
+  methods: {
+    toHome () {
+      this.$router.push('/')
     }
   },
-  mounted() {
-    let That = this;
-    window.addEventListener('scroll',function (){
-      let top = document.documentElement.scrollTop;
-      if (top>45){
-        let opacity = top/130;
-        opacity = opacity>1?1:opacity
+  mounted () {
+    let That = this
+    window.addEventListener('scroll', function () {
+      let top = document.documentElement.scrollTop
+      if (top > 45) {
+        let opacity = top / 130
+        opacity = opacity > 1 ? 1 : opacity
         That.styleOpacity = {opacity}
         That.showHeader = false
-      }else{
+      } else {
         That.showHeader = true
       }
     })

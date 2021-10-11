@@ -12,8 +12,8 @@
 </template>
 <script>
 export default {
-  methods:{
-    toHome(){
+  methods: {
+    toHome () {
       this.$router.push('/')
     }
   }

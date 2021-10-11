@@ -9,22 +9,22 @@ import CityHeader from './pages/Header'
 import CityList from './pages/List'
 
 export default {
-  components:{
+  components: {
     CityHeader,
     CityList
   },
-  data(){
-    return{
-      hotCities:[],
-      cities:{}
+  data () {
+    return {
+      hotCities: [],
+      cities: {}
     }
   },
-  mounted() {
-    this.$http.get('./api/city.json').then((res)=>{
-      //console.log(res.data.data)
-      let data = res.data.data;
-      this.hotCities = data.hotCities;
-      this.cities = data.cities;
+  mounted () {
+    this.$http.get('./api/city.json').then((res) => {
+      // console.log(res.data.data)
+      let data = res.data.data
+      this.hotCities = data.hotCities
+      this.cities = data.cities
     })
   }
 }

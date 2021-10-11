@@ -18,9 +18,9 @@
 </template>
 <script>
 export default {
-  props:['hotList'],
-  data(){
-    return{
+  props: ['hotList'],
+  data () {
+    return {
     }
   }
 }

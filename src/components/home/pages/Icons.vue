@@ -13,22 +13,22 @@
 </template>
 <script>
 export default {
-  props:['iconList'],
-  data(){
-    return{
-      swiperOptions:{},
+  props: ['iconList'],
+  data () {
+    return {
+      swiperOptions: {}
     }
   },
-  computed:{
-    page(){
-      let pages = [];
-      this.iconList.forEach((item,index) =>{
-        let idx = Math.floor(index/8);
-        if (!pages[idx]) pages[idx] = [];
+  computed: {
+    page () {
+      let pages = []
+      this.iconList.forEach((item, index) => {
+        let idx = Math.floor(index / 8)
+        if (!pages[idx]) pages[idx] = []
         pages[idx].push(item)
       })
 
-      return pages;
+      return pages
     }
   }
 }

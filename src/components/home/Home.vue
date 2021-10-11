@@ -24,7 +24,7 @@ import HomeLike from './pages/Like'
 import HomeVacation from './pages/Vacation'
 
 export default {
-  components:{
+  components: {
     HomeHeader,
     HomeSwiper,
     HomeIcons,
@@ -34,49 +34,53 @@ export default {
     HomeLike,
     HomeVacation
   },
-  data(){
-    return{
-      swiperList:[],
-      iconList:[],
-      likeList:[],
-      vacationList:[],
-      hotList:[],
-      changeCity:''
+  data () {
+    return {
+      swiperList: [],
+      iconList: [],
+      likeList: [],
+      vacationList: [],
+      hotList: [],
+      changeCity: ''
     }
   },
-  computed:{
+  computed: {
     ...mapState(['city'])
   },
-  methods:{
-  getHttp(){
-    this.$http.get("/api/dataHome.json")
-      .then((res)=>{
-        const data = res.data.data;
-        data.forEach((item,index)=>{
-          if(item.city==this.city){
-            console.log(item)
-            this.swiperList = item.swiperList;
-            this.iconList = item.iconList;
-            this.likeList = item.likeList;
-            this.vacationList = item.vacationList;
-            this.hotList = item.hotList;
-          }
+  methods: {
+    getHttp () {
+      this.$http.get('/api/dataHome.json')
+        .then((res) => {
+          const data = res.data.data
+          // console.log(data[0])
+          console.log(data)
+          data.forEach((item, index) => {
+            console.dir(this)
+            if (item.city == this.city) {
+              console.log(item)
+              this.swiperList = item.swiperList
+              this.iconList = item.iconList
+              this.likeList = item.likeList
+              this.vacationList = item.vacationList
+              this.hotList = item.hotList
+            }
+          })
         })
-      })
-  }
+    }
   },
-  mounted() {
-    this.changeCity = this.city;
+  mounted () {
+    this.changeCity = this.city
     this.getHttp()
   },
-  activated() {
-    if (this.changeCity != this.city){
+  activated () {
+    if (this.changeCity !== this.city) {
       this.getHttp()
-      this.changeCity = this.city;
+      this.changeCity = this.city
     }
   }
 }
 </script>
+
 <style scoped>
 .home{
   background:#f5f5f5 ;

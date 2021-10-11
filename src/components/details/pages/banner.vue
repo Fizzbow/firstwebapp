@@ -38,40 +38,39 @@
 export default {
   data () {
     return {
-      swiperOption:{
+      swiperOption: {
         pagination: {
           el: '.swiper-pagination',
-          type:"fraction"
+          type: 'fraction'
         }
       },
-      bannerList:[
+      bannerList: [
         {
-          id:"01",
-          imgUrl:"http://img1.qunarzz.com/sight/p0/1609/e4/e45d9cb483478459a3.water.jpg_r_800x800_a044eb00.jpg"
+          id: '01',
+          imgUrl: 'http://img1.qunarzz.com/sight/p0/1609/e4/e45d9cb483478459a3.water.jpg_r_800x800_a044eb00.jpg'
         },
         {
-          id:"02",
-          imgUrl:"http://img1.qunarzz.com/sight/p0/1609/e4/e45d9cb483478459a3.water.jpg_r_800x800_a044eb00.jpg"
+          id: '02',
+          imgUrl: 'http://img1.qunarzz.com/sight/p0/1609/e4/e45d9cb483478459a3.water.jpg_r_800x800_a044eb00.jpg'
         },
         {
-          id:"03",
-          imgUrl:"http://img1.qunarzz.com/sight/p0/1609/e4/e45d9cb483478459a3.water.jpg_r_800x800_a044eb00.jpg"
+          id: '03',
+          imgUrl: 'http://img1.qunarzz.com/sight/p0/1609/e4/e45d9cb483478459a3.water.jpg_r_800x800_a044eb00.jpg'
         }
       ],
-      imgSwiper:false
+      imgSwiper: false
     }
   },
-  methods:{
-    showSwiper(){
-      this.imgSwiper = true;
+  methods: {
+    showSwiper () {
+      this.imgSwiper = true
     },
-    hideSwiper(){
-      this.imgSwiper = false;
+    hideSwiper () {
+      this.imgSwiper = false
     }
   }
 }
 </script>
-
 
 <style scoped>
 .banner{

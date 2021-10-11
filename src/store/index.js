@@ -6,11 +6,11 @@ Vue.use(Vuex)
 let defaltCity = '上海';
 defaltCity = localStorage.city;
 
-const state ={
-  city:defaltCity
+const state = {
+  city: defaltCity
 }
-const mutations ={
-  changeCity(state,cityName){
+const mutations = {
+  changeCity (state, cityName) {
     this.state.city = cityName;
     localStorage.city = cityName;
   }

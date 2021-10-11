@@ -7,7 +7,7 @@ import router from './router'
 Vue.config.productionTip = false
 // js
 import FastClick from 'fastclick'
-FastClick.attach(document.body);
+FastClick.attach(document.body)
 
 //axios
 import axios from 'axios'
