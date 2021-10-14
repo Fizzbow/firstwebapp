@@ -87,11 +87,11 @@ export default {
     return {
       swiperOptions: {
         pagination: {
-          el: '.swiper-pagination',
+          el: '.swiper-pagination'
         },
         autoplay: true,
         speed: 400,
-        loop: true,
+        loop: true
       },
     }
   }
