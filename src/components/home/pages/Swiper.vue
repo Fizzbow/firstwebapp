@@ -96,15 +96,12 @@ export default {
     }
   }
 }
-
-
 </script>
 <style scoped lang="stylus">
 // 这么写的目的是防止网速较慢的时候出现掉块的现象
 .header-swiper
   background #ccc
-  height 0
-  padding-bottom 26.67%
+  // padding-bottom 26.66667%
 // 设置的高度为100%会出现高度问题
 .header-swiper img
   width 100%

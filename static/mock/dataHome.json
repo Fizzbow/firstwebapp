@@ -8,15 +8,15 @@
       "swiperList":[
         {
           "id":"01",
-          "imgUrl":"/api/img/1.jpg"
+          "imgUrl":"/api/img/4.jpg"
         },
         {
           "id":"02",
-          "imgUrl":"/api/img/2.jpg"
+          "imgUrl":"/api/img/5.jpg"
         },
         {
           "id":"03",
-          "imgUrl":"/api/img/3.jpg"
+          "imgUrl":"/api/img/6.jpg"
         }
       ],
       "iconsList":[
@@ -147,11 +147,11 @@
       "swiperList":[
         {
           "id":"01",
-          "imgUrl":"/api/img/1.jpg"
+          "imgUrl":"/api/img/2.jpg"
         },
         {
           "id":"02",
-          "imgUrl":"/api/img/2.jpg"
+          "imgUrl":""
         },
         {
           "id":"03",
@@ -225,20 +225,20 @@
         },
         {
           "id":"03",
-          "imgUrl":"http://img1.qunarzz.com/sight/p0/1708/2b/2b3b94de99c0a425a3.img.jpg_150x150_2dec3e78.jpg",
-          "title":"八达岭长城",
+          "imgUrl":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/42/fd/e6/shanghai-museum-shanghai.jpg?w=500&h=-1&s=1",
+          "title":"上海博物馆",
           "mark":"25"
         },
         {
           "id":"04",
-          "imgUrl":"http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_150x150_8a63d940.jpg",
-          "title":"水立方",
-          "mark":"14"
+          "imgUrl":"https://media-cdn.tripadvisor.com/media/photo-s/15/d8/af/1c/zhujiajiao-water-town.jpg",
+          "title":"朱家角古镇",
+          "mark":"49"
         },
         {
           "id":"05",
-          "imgUrl":"http://img1.qunarzz.com/sight/p0/201405/30/63494597d8a8346abd77cc9e1cd2ee79.jpg_150x150_7037ca72.jpg",
-          "title":"定陵",
+          "imgUrl":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/6a/90/cf/caption.jpg?w=500&h=400&s=1",
+          "title":"中华艺术宫",
           "mark":"50"
         }
       ],
