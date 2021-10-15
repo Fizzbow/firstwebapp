@@ -4,7 +4,7 @@
   <div class="home">
       <home-header></home-header>
       <home-swiper :swiperList = 'swiperList'></home-swiper>
-      <home-icons :iconList = 'iconList'></home-icons>
+      <home-icons :iconsList = 'iconsList'></home-icons>
       <home-location></home-location>
       <home-activity></home-activity>
       <home-hot :hotList = 'hotList'></home-hot>
@@ -37,7 +37,7 @@ export default {
   data () {
     return {
       swiperList: [],
-      iconList: [],
+      iconsList: [],
       likeList: [],
       vacationList: [],
       hotList: [],
@@ -59,7 +59,7 @@ export default {
             if (item.city == this.city) {
               console.log(item)
               this.swiperList = item.swiperList
-              this.iconList = item.iconList
+              this.iconsList = item.iconsList
               this.likeList = item.likeList
               this.vacationList = item.vacationList
               this.hotList = item.hotList

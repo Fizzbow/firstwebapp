@@ -147,11 +147,11 @@
       "swiperList":[
         {
           "id":"01",
-          "imgUrl":"/api/img/2.jpg"
+          "imgUrl":"/api/img/1.jpg"
         },
         {
           "id":"02",
-          "imgUrl":""
+          "imgUrl":"/api/img/2.jpg"
         },
         {
           "id":"03",

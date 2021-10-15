@@ -92,7 +92,7 @@ export default {
         autoplay: true,
         speed: 400,
         loop: true
-      },
+      }
     }
   }
 }

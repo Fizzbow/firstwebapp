@@ -27,7 +27,7 @@ export default {
   background: $bgColor;
   color: #fff;
   font-size: .36rem;
-  position relative;
+  position fixed;
 
 }
 .header-left{

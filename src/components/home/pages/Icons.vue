@@ -1,19 +1,18 @@
 <template>
   <div class="icons">
     <swiper :options="swiperOptions">
-      <swiper-slide v-for ="item in page" :key="item.id">
-        <div class="icons-item" v-for="page in item" :key="item.id">
+      <swiper-slide v-for ="(item,key) in page" :key="key">
+        <div class="icons-item" v-for="page in item" :key="page.id">
           <img :src="page.imgUrl">
           <p>{{page.title}}</p>
         </div>
       </swiper-slide>
     </swiper>
-
   </div>
 </template>
 <script>
 export default {
-  props: ['iconList'],
+  props: ['iconsList'],
   data () {
     return {
       swiperOptions: {}
@@ -22,7 +21,7 @@ export default {
   computed: {
     page () {
       let pages = []
-      this.iconList.forEach((item, index) => {
+      this.iconsList.forEach((item, index) => {
         let idx = Math.floor(index / 8)
         if (!pages[idx]) pages[idx] = []
         pages[idx].push(item)

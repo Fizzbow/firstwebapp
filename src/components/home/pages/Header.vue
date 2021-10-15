@@ -32,6 +32,7 @@ export default {
 <style scoped lang="stylus">
 @import "~css/var.styl"
 .header{
+  z-index 100px;
   width: 100%;
   line-height: .88rem;
   background: $bgColor;
@@ -59,5 +60,8 @@ export default {
 .header-right{
   font-size: .28rem;
   padding: 0 .2rem;
+}
+.header-right a{
+  color #fff;
 }
 </style>
