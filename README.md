@@ -1,9 +1,5 @@
 # firstwebapp
-
-> A Vue.js project
-
-## Build Setup
-
+## 项目运行
 ``` bash
 # install dependencies
 npm install
@@ -13,21 +9,36 @@ npm run dev
 
 # build for production with minification
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
+## 技术栈
+> vue2 + vuex + vue-router + webpack + stylus
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## vue-router路由跳转
 
-# 实现功能
-## 点击字母索引跳到相应页面
+### Vue组件通信
+#### 父子组件之间的数据通信
+> -父组件向后台请求数据(只需请求一次)，把父组件的数据传递给子组件
+```angular2html
+//axios请求数据
+  this.$http.get('./api/city.json').then((res) => {
+        // console.log(res.data.data)
+        let data = res.data.data
+        this.hotCities = data.hotCities
+        this.cities = data.cities
+      })
+    }
+```
+#### vuex实现子组件通信
+> home子页面到city子页面实现相互跳转，将对应城市的json数据渲染到页面上
+
+### keep-alive优化
+keep-alive能使组件数据缓存，当数据重复请求的时候只会请求一次
+```angular2html
+<div id="app">
+    <keep-alive>
+      <router-view exclude = "detail"></router-view>
+    </keep-alive>
+  </div>
+```
+设置exclude的作用是为了进入详情页面的时候不缓存数据
+
