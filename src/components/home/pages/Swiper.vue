@@ -100,12 +100,12 @@ export default {
 <style scoped lang="stylus">
 // 这么写的目的是防止网速较慢的时候出现掉块的现象
 .header-swiper
-  background #ccc
-  // padding-bottom 26.66667%
+  //background #ccc
+// padding-bottom 26.66667%
 // 设置的高度为100%会出现高度问题
 .header-swiper img
   width 100%
-  height 2rem
+  height 2.3rem
 .header-swiper>>>.swiper-pagination-bullet-active
   background #fff
 </style>

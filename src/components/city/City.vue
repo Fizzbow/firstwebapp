@@ -27,6 +27,7 @@ export default {
       this.cities = data.cities
     })
   }
+
 }
 </script>
 <style scoped>
