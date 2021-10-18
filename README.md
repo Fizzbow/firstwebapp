@@ -14,10 +14,9 @@ npm run build
 > vue2 + vuex + vue-router + webpack + stylus
 
 ## vue-router路由跳转
-<<<<<<< HEAD
 
 =======
-![image](https://user-images.githubusercontent.com/55476631/137483851-9c151304-ccf3-41ec-beeb-3bdf2a58c1a3.gif)
+![image](https://github.com/Fizzbow/firstwebapp/blob/main/src/assets/%E5%8E%BB%E5%93%AA%E5%84%BFimg/%E5%AD%97%E6%AF%8D%E7%B4%A2%E5%BC%95.gif)
 >>>>>>> 306edea8bc055c2a13f29ef726f54b5b04832c45
 ### Vue组件通信
 #### 父子组件之间的数据通信
@@ -36,7 +35,7 @@ npm run build
 > home子页面到city子页面实现相互跳转，将对应城市的json数据渲染到页面上
 <<<<<<< HEAD
 =======
-![image](https://user-images.githubusercontent.com/55476631/137486067-d8325ac4-f789-4bb9-b416-5e05d96d950e.gif)
+![image](https://github.com/Fizzbow/firstwebapp/blob/main/src/assets/%E5%8E%BB%E5%93%AA%E5%84%BFimg/%E5%AD%90%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1.gif)
 >>>>>>> 306edea8bc055c2a13f29ef726f54b5b04832c45
 
 ### keep-alive优化
